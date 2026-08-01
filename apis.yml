@@ -1,9 +1,32 @@
 aid: shift-technology
 name: Shift Technology
-description: 'Shift Technology is a company surfaced as a portfolio company of accel, bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: big-data. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Shift Technology is an insurance-focused artificial intelligence company that
+  builds purpose-built AI agents automating critical insurance workflows,
+  including claims processing and automation, fraud and financial-crime
+  detection, coverage assessment, subrogation, and payment integrity. Founded in
+  Paris and now operating globally, Shift serves 120+ insurance customers across
+  more than 30 countries and has analyzed billions of policies, claims, and
+  supporting documents. Shift deploys as cloud SaaS and integrates with insurer
+  core systems through its technology, data, and service partner programs. The
+  company does not publish a public developer API, OpenAPI specification, or
+  self-service developer portal; integrations are delivered as enterprise
+  engagements. This profile was surfaced as a venture-portfolio lead and enriched
+  by the API Evangelist pipeline; the artifacts here capture the company's
+  public security, compliance, and domain posture rather than a public API.
 url: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.shift-technology.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Big Data
+- Insurance
+- InsurTech
+- Fraud Detection
+- Artificial Intelligence
+- Claims Automation
+- Financial Crime
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +54,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.shift-technology.com
+  url: https://www.shift-technology.com
+- type: Security
+  url: https://www.shift-technology.com/security
+- type: Compliance
+  url: https://www.shift-technology.com/security
+- type: PrivacyPolicy
+  url: https://www.shift-technology.com/privacy-notice
+- type: TermsOfService
+  url: https://www.shift-technology.com/terms-of-use
+- type: Support
+  url: https://www.shift-technology.com/contact
+- type: Conformance
+  url: conformance/shift-technology-conformance.yml
+- type: DomainSecurity
+  url: security/shift-technology-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

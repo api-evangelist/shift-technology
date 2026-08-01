@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.shift-technology.com/security
+note: >-
+  Shift Technology publishes no public API, so no cross-cutting API standards
+  (OAuth2/OIDC/RFC 9457/pagination) can be asserted from a spec. This file
+  captures the security/compliance certifications the company names on its
+  public security page.
+standards:
+  - id: soc2
+    conforms: true
+    evidence: security page names AICPA SOC 2 audit / attestation
+  - id: iso-27701
+    conforms: true
+    evidence: security page names ISO/IEC 27701 (privacy information management)
+  - id: hitrust
+    conforms: true
+    evidence: security page names HITRUST assessment
+  - id: gdpr
+    conforms: true
+    evidence: security page states "GDPR-compliant by design"
+  - id: hds
+    conforms: true
+    evidence: security page names HDS (Hebergeur de Donnees de Sante / French health-data hosting) compliance
