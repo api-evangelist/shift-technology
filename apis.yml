@@ -15,6 +15,17 @@ description: >-
   by the API Evangelist pipeline; the artifacts here capture the company's
   public security, compliance, and domain posture rather than a public API.
 url: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
