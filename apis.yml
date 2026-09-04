@@ -1,18 +1,13 @@
 aid: shift-technology
 name: Shift Technology
-description: >-
-  Shift Technology is an insurance-focused artificial intelligence company that
-  builds purpose-built AI agents automating critical insurance workflows,
-  including claims processing and automation, fraud and financial-crime
-  detection, coverage assessment, subrogation, and payment integrity. Founded in
-  Paris and now operating globally, Shift serves 120+ insurance customers across
-  more than 30 countries and has analyzed billions of policies, claims, and
-  supporting documents. Shift deploys as cloud SaaS and integrates with insurer
-  core systems through its technology, data, and service partner programs. The
-  company does not publish a public developer API, OpenAPI specification, or
-  self-service developer portal; integrations are delivered as enterprise
-  engagements. This profile was surfaced as a venture-portfolio lead and enriched
-  by the API Evangelist pipeline; the artifacts here capture the company's
+description: Shift Technology is an insurance-focused artificial intelligence company that builds purpose-built
+  AI agents automating critical insurance workflows, including claims processing and automation, fraud and financial-crime
+  detection, coverage assessment, subrogation, and payment integrity. Founded in Paris and now operating globally,
+  Shift serves 120+ insurance customers across more than 30 countries and has analyzed billions of policies, claims,
+  and supporting documents. Shift deploys as cloud SaaS and integrates with insurer core systems through its technology,
+  data, and service partner programs. The company does not publish a public developer API, OpenAPI specification,
+  or self-service developer portal; integrations are delivered as enterprise engagements. This profile was surfaced
+  as a venture-portfolio lead and enriched by the API Evangelist pipeline; the artifacts here capture the company's
   public security, compliance, and domain posture rather than a public API.
 url: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/apis.yml
 deliveryModel:
@@ -89,6 +84,8 @@ common:
   url: conformance/shift-technology-conformance.yml
 - type: DomainSecurity
   url: security/shift-technology-domain-security.yml
+- type: Blog
+  url: https://www.shift-technology.com/resources
 x-enrichment:
   date: '2026-07-21'
   status: enriched
