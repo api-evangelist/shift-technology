@@ -42,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Big Data
@@ -68,6 +68,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.shift-technology.com/resources/news
+  type: Blog
+- url: https://www.shift-technology.com/resources/news/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://www.shift-technology.com
 - type: Security
